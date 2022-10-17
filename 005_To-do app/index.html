@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Choose the name of your To-Do!</h1>
+      <div class="buttons">
+        <button class="optionButton" type="button">Errands</button>
+        <button class="optionButton" type="button">Movies</button>
+        <button class="optionButton" type="button">Groceries</button>
+        <button class="optionButton" type="button">TV Shows</button>
+      </div>
+
+      <h2 contenteditable="true">My To-Do!</h2>
+      <ul class="list"></ul>
+      <form class="add-items">
+        <input type="text" name="item" placeholder="Item Name" required />
+        <input type="submit" value="+ Add Item" />
+      </form>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
