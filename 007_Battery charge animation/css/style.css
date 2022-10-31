@@ -1,0 +1,14 @@
+.wrap {
+    width: 600px;
+    margin: auto;
+    transform: rotate(-90deg);
+}
+
+#animation {
+    font-size: 20em;
+    margin: auto;
+}
+
+.fa {
+    color: red;
+}
